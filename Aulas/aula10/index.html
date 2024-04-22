@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagens Dinamica</h1>
+    <p>Imagens que podem ser redmencionadas em determinados dispositivos</p>
+    
+    <picture>
+        <source media="(min-width: 750px )" srcset="imagens/foto-pequena.png" type="image/png"><!--Quando for fazer a ordem de sources tem que fazer do menor para o maior de cima para baixo-->
+        <source media="(min-width: 1000px )" srcset="imagns/foto-Media.png" type="image/png"><!--Esse codigo irá redimencionar o tamanho da imagem para que fique legivel e boa de se ver dependendo do dispositivo-->
+        <img src="imagens/foto-grande.png" alt="imagem felixivel"> <!--Oque esse codigo ira fazer?-->
+        
+    </picture>
+    
+    <h1> Reproduzir audio e bastante simples</h1>
+    <p>Olha como se reproduz audio em um site me Html5</p>
+    <audio preload="metadata" autoplay controls loop>
+       <source src="../imagens/Playboi Carti-＂ 9 AM in Calabasas remix＂(prod by Adrian).mp3" type="media/mp3"><!--Ele funciona igual o codigo de cima que é lido de cima para baixo-->
+       <source src="../imagens/Playboi Carti-＂ 9 AM in Calabasas remix＂(prod by Adrian).ogg" type="media/ogg">
+       <source src="../imagens/Playboi Carti-＂ 9 AM in Calabasas remix＂(prod by Adrian).wav" type="media/wav">
+       <p>infelizmente seu navegador não suporta a reprodução do arquivo de audio então <a href="../imagens/Playboi Carti-＂ 9 AM in Calabasas remix＂(prod by Adrian).mp3">clique aqui</a> para baixar o arquivo .mp3</p>
+    </audio>
+    <video src="/Aulas/imagens/0331.mp4" type="video/mp4" width="200"  controls poster="/Aulas/imagens/Roger icone.ico"></video> <!--poster é tubnaiail do video-->
+
+    <h1>Inserindo videos do youtube!</h1>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3hng-hmSv2Y?si=wvzPmFnyhu0O19Fp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

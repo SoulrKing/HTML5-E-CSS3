@@ -1,0 +1,32 @@
+h1 {
+    background-color: lightgray;
+
+    height: 100px;
+    /* altura */
+
+    width: 200px;
+    /* Largura */
+    
+    border: 10px;
+    /* borda */
+    
+    padding: 5px;
+    /*  largura dentro da borda ou espaço do conteudo */
+    
+    margin: 10px auto;
+    /* marin e a margem do conteudo é o espaço fora */
+    
+    outline: 1px;
+    /* traçado ele e fora de todo o elemento */
+    
+    
+    /* margin padding trabalham em sentido horario, como por exemplo 
+
+    padding: 10px 5px 10px 5px = top, right, bottom, left */
+    
+    /*  o nome disso e shortHanded */
+    
+    border: 10px solid darkblue;
+    
+    outline: 5px dashed green;
+}

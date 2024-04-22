@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('../desafio3/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor0: #91f09ea1;
+    --cor1: green;
+    --cor2: #3a8103;
+    --cor3: #00991969;
+    --cor4: rgb(2, 87, 2);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #91f09ea1;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flexbox;
+    background-color: green;
+    background: linear-gradient(to top, #058f43, #84c255, #91f09e);
+    box-shadow: 5px 11px 10px rgba(0, 0, 0, 0.699);
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-top: 20px;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+nav>a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+}
+
+nav>a:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+header>nav {
+    margin: 10px;
+    padding-left: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+header>h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 3px 2px 4px black;
+}
+
+header>p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+    max-width: 800px;
+    min-width: 280px;
+
+}
+main>p {
+    text-indent: 40px;
+    padding: 10px;
+    font-size: large;
+    line-height: 1.1em;
+}
+main>h2{
+    margin-left: 10px;
+}
+h2 {
+    font-family: 'droid';
+    color: green;
+
+}
+
+h3 {
+    font-family: 'droid';
+    color: #3a8103;
+    background-color: #00991969;
+    background-image: linear-gradient(to right, rgba(0, 182, 0, 0.418), white);
+}
+
+div#centerdroidimg {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+
+
+div.video {
+    background-color: green;
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    
+    
+
+}
+
+div>iframe {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+}
+
+.imagem {
+    text-align: center;
+
+}
+aside>ul{
+    list-style: inside;
+    columns: 2;
+    list-style-type: '\274\00A0\00A0'; /* não é compativel com todos os navegadores*/
+}
+
+aside#finalbox {
+padding: 10px;
+margin: 10px;
+    background-color: #14a8075e;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.61);
+}
+
+aside#finalbox>h1 {
+    background-color: #058f43;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+    margin: -10px;
+}
+aside#finalbox>p{
+    padding: 15px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2#paragrafofinal {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(2, 87, 2);
+    text-indent: 40px;
+}
+
+iframe {
+    margin: auto;
+    padding: auto;
+
+}
