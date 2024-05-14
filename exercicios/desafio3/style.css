@@ -75,16 +75,7 @@ header>p {
 
 main {
     background-color: white;
-    justify-content: center;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 100px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px;
-    max-width: 800px;
-    min-width: 280px;
+    
 
 }
 main>p {
