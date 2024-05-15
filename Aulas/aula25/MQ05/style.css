@@ -6,11 +6,11 @@
     margin: 0px;
 }
 
-body,
-html {
-    background-color: rgb(209, 226, 223) ;
-
+body, html {
+    background-color: rgb(209, 226, 223);
 }
+
+
 
 header {
     background-color: rgba(128, 128, 128, 0.5);
@@ -19,11 +19,11 @@ header {
 header>h1 {
     padding: 10px;
     text-align: center;
-
+    
 }
 #Menuhamburger{
     background-color: rgba(54, 53, 53, 0.637);
-    text-align: center ;
+    text-align: center;
     display: block;
     color: white;
     padding: 10px;
@@ -41,7 +41,7 @@ menu {
 
 menu>ul {
     list-style-type: none;
-
+    
 }
 
 menu>ul>li>a {
@@ -66,6 +66,10 @@ main {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+article{
+    padding: 0px;
+    margin: 0px;
 }
 
 article>p{
