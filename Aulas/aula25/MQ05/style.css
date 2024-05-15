@@ -21,7 +21,8 @@ header>h1 {
     text-align: center;
     
 }
-#Menuhamburger{
+
+#Menuhamburger {
     background-color: rgba(54, 53, 53, 0.637);
     text-align: center;
     display: block;
@@ -30,18 +31,19 @@ header>h1 {
     cursor: pointer;
 }
 
-#Menuhamburger:hover{
+#Menuhamburger:hover {
     background-color: white;
     color: black;
     transition: 0.5s;
 }
+
 menu {
     display: block;
 }
 
 menu>ul {
     list-style-type: none;
-    
+
 }
 
 menu>ul>li>a {
@@ -67,12 +69,13 @@ main {
     padding: 10px;
     border-radius: 10px;
 }
-article{
-    padding: 0px;
-    margin: 0px;
+
+article {
+    margin: auto;
+    padding: auto;
 }
 
-article>p{
+article>p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 10px;
